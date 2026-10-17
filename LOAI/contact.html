@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تواصل مع لؤي — LOAI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+<a class="brand" href="index.html" aria-label="LOAI Home">
+  <img src="assets/loai-logo.png" alt="LOAI Logo">
+</a>
+    <nav class="main-nav" aria-label="القائمة الرئيسية">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">عنّي</a>
+      <a href="work.html">الأعمال</a>
+      <a href="services.html">الخدمات</a>
+      <a href="contact.html" aria-current="page">تواصل</a>
+    </nav>
+    <button class="menu-toggle" type="button"
+      aria-label="فتح القائمة" aria-expanded="false">☰</button>
+  </header>
+
+  <main class="page-content">
+    <section class="page-hero">
+      <p class="eyebrow">LET'S MAKE SOMETHING DISTINCT</p>
+      <h1>عندك فكرة؟<br><span>أنا سامعك.</span></h1>
+      <p>
+        ابعتلي تفاصيل مشروعك، وخلينا نشوف إزاي نحول
+        الفكرة لتصميم مناسب ليها.
+      </p>
+    </section>
+
+    <section class="contact-layout">
+      <div class="contact-details">
+        <p class="eyebrow">DIRECT CONTACT</p>
+        <h2>اختار طريقة التواصل.</h2>
+
+        <a class="contact-link"
+          href="https://wa.me/201019959333"
+          target="_blank" rel="noopener noreferrer">
+          <span>01</span>
+          <span>
+            <strong>WhatsApp</strong>
+            <small>01019959333</small>
+          </span>
+          <span>↗️</span>
+        </a>
+
+        <a class="contact-link"
+          href="https://www.facebook.com/share/14qvCAYCxRQ/"
+          target="_blank" rel="noopener noreferrer">
+          <span>02</span>
+          <span>
+            <strong>Facebook</strong>
+            <small>تابع صفحة LOAI</small>
+          </span>
+          <span>↗️</span>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <p class="eyebrow">TELL ME ABOUT YOUR PROJECT</p>
+
+        <label for="clientName">اسمك</label>
+        <input id="clientName" name="name" type="text"
+          placeholder="اكتب اسمك" required maxlength="100">
+
+        <label for="clientService">الخدمة المطلوبة</label>
+        <select id="clientService" name="service" required>
+          <option value="">اختار الخدمة</option>
+          <option value="هوية بصرية">هوية بصرية</option>
+          <option value="تصميم سوشيال ميديا">تصميم سوشيال ميديا</option>
+          <option value="مطبوعات وتصميم تحريري">مطبوعات وتصميم تحريري</option>
+          <option value="خدمة أخرى">خدمة أخرى</option>
+        </select>
+
+        <label for="clientDetails">تفاصيل المشروع</label>
+        <textarea id="clientDetails" name="details"
+          rows="5" placeholder="احكيلي عن فكرتك..."
+          required maxlength="2000"></textarea>
+
+        <button class="button button-primary" type="submit">
+          إرسال عبر واتساب ↗️
+        </button>
+
+        <p class="form-note">
+          هتتم مراجعة البيانات وفتح واتساب لإرسال الرسالة.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="index.html" class="footer-brand">LOAI®️</a>
+    <p>Independent mind. Distinct visual language.</p>
+    <p>©️ <span class="current-year">2026</span> LOAI</p>
+  </footer>
+</body>
+</html>
